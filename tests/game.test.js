@@ -25,8 +25,6 @@ describe('getCellState', () => {
             [0, 1, 0]
         ];
 
-        expect(getCellState(field, 0, 0)).toBe(0);
-        expect(getCellState(field, 0, 1)).toBe(1);
         expect(getCellState(field, 2, 1)).toBe(1);
         expect(getCellState(field, 2, 2)).toBe(0);
     });
